@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+</head>
+<body>
+    <div>
+        <h2>Ejercicio 1: Calculadora de Edad</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <label for="nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="nacimiento">
+        <button onclick="calculadoraEdad()">Calcular Edad</button>
+        <p id="resultado1"></p>
+    </div>
+
+    <div>
+        <h2>Ejercicio 2: Tirando Fruta</h2>
+        <label for="fruta">Ingresa una fruta:</label>
+        <input type="text" id="fruta" placeholder="Fruta">
+        <button onclick="tirandoFruta()">Verificar Fruta</button>
+        <p id="resultado2"></p>
+    </div>
+
+    <div>
+        <h2>Ejercicio 3: Comparando Datos</h2>
+        <button onclick="comparandoDatos()">Comparar Datos</button>
+    </div>
+
+    <div>
+        <h2>Ejercicio 4: Creando un Objeto</h2>
+        <button onclick="yoObjeto()">Crear Objeto</button>
+    </div>
+
+    <div>
+        <h2>Ejercicio 5: Doble de Elementos</h2>
+        <button onclick="elementos()">Doble de Elementos</button>
+        <button onclick="elemento()">Doble de Elementos (Usando map)</button>
+    </div>
+
+    <div>
+        <h2>Ejercicio 6: Pirámide de Asteriscos</h2>
+        <button onclick="piramide()">Dibujar Pirámide</button>
+    </div>
+
+    <div>
+        <h2>Ejercicio 7: Nombres que Comienzan con 'A'</h2>
+        <label for="nombres">Lista de Nombres:</label>
+        <input type="text" id="nombres" placeholder="Separados por coma">
+        <button onclick="coma()">Ver Nombres con 'A'</button>
+    </div>
+
+    <div>
+        <h2>Ejercicio 8: Reemplazar Palabra</h2>
+        <label for="Texto">Texto:</label>
+        <input type="text" id="Texto" placeholder="Texto">
+        <label for="Reemplazar">Palabra a Reemplazar:</label>
+        <input type="text" id="Reemplazar" placeholder="Palabra a Reemplazar">
+        <label for="Reemplazo">Palabra de Reemplazo:</label>
+        <input type="text" id="Reemplazo" placeholder="Palabra de Reemplazo">
+        <button onclick="reemplazar()">Reemplazar Palabra</button>
+        <p id="resultado8"></p>
+    </div>
+
+    <div>
+        <h2>Ejercicio 9: Primeros Caracteres</h2>
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" placeholder="Texto">
+        <label for="NumeroParaCortar">Número de Caracteres:</label>
+        <input type="number" id="NumeroParaCortar" placeholder="Número">
+        <button onclick="primerosCaracteres()">Obtener Primeros Caracteres</button>
+        <p id="resultado9"></p>
+    </div>
+
+    <div>
+        <h2>Ejercicio 10: Separar por Guiones</h2>
+        <label for="ListaComa">Lista de Elementos:</label>
+        <input type="text" id="ListaComa" placeholder="Separados por coma">
+        <button onclick="guion()">Separar por Guiones</button>
+        <p id="resultado10"></p>
+    </div>
+
+    <div>
+        <h2>Ejercicio 11: Calculadora de Recaudación</h2>
+        <label for="ListaPrecios">Lista de Pedidos:</label>
+        <input type="text" id="ListaPrecios" placeholder="Ej: Pizza:15.50, Hamburguesa:8.75">
+        <button onclick="recaudacion()">Calcular Recaudación</button>
+        <p id="resultado11"></p>
+    </div>
+
+    <script src="ejercicios.js"></script>
+</body>
+</html>
+
